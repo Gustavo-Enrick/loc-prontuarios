@@ -1,0 +1,26 @@
+.lateral-menu
+    position: fixed
+    top: 0
+    right: 0
+    width: 300px
+    height: 100vh
+    background-color: #f8f9fa
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1)
+    padding: 20px
+    display: flex
+    flex-direction: column
+    z-index: 1000
+    transition: transform 0.3s
+
+.hidden
+    transform: translateX(100%)
+
+
+.closeIcon
+    cursor: pointer
+    font-size: 20px
+
+
+.closeIcon:hover
+    transform: scale(1.5)
+
